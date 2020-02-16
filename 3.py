@@ -3,7 +3,7 @@ import numpy as np
 a = []
 
 while True:
-    raw = input()
+    raw = input("введите элементы массива (каждый эллемент разделяется пробелом, каждая строка новой строкой, последняя строка - end")
     if raw == "end":
         break
     str_ = [[int(i) for i in raw.split()]]
